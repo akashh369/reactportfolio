@@ -1,0 +1,42 @@
+.hero-img{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero-img::before{
+    content: "";
+    background: url("https://rare-gallery.com/uploads/posts/503137-coding-computer.jpg");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and(max-width :"640px"){
+    .hero-img h1{
+        font-size: 2rem;
+    }   
+}

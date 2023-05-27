@@ -1,0 +1,43 @@
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    
+}
+.project-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+    padding-bottom: 5rem;
+}
+.project-card{
+   background-color: #1a1919;
+   padding: 1.2rem 1rem;
+   margin: 8px 10px;
+   max-width: 350px;
+   min-width: 350pxs;
+}
+.project-card img{
+    width: 100%;
+}
+
+.project-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro--btns .btn{
+    padding: 0.5rem 1rem;
+}
+
