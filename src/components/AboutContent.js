@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 
 import React1 from "../assets/react1.jpg"
 import React2 from "../assets/react2.webp"
+import coloursharp from '../assets/color-sharp2.png'
 
 const AboutContent = () => {
   return (
@@ -13,7 +14,7 @@ const AboutContent = () => {
             <h2>Who Am I?</h2>
             <p>
                 Im a react front-end develpoer , I create
-                responsice secure website for my clients.
+                responsice websites as per requirements
             </p>
             <Link to="/contact">
                 <button className="btn">Contact</button>

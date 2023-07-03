@@ -3,6 +3,7 @@ import "./WorkCardStyle.css"
 import React from 'react'
 import WorkCard from "./WorkCard"
 import WorkCardData from "./WorkCardData"
+// import coloursharp from '../assets/color-sharp.png'
 
 const Work = () => {
   return (
@@ -20,11 +21,13 @@ const Work = () => {
                             title={val.title}
                             text={val.text}
                             view={val.view}
+                            source={val.source}
                         />
                     )
                 })
             }
         </div>
+        {/* <img className='background-img-left' src={coloursharp}/> */}
     </div>
   )
 }

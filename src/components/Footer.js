@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import{FaHome,FaPhone,FaMailBulk,FaFacebook,FaLinkedin,FaTwitter} from "react-icons/fa";
+import{FaHome,FaPhone,FaMailBulk,FaFacebook,FaLinkedin,FaGithub, FaInstagram} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -34,20 +34,24 @@ const Footer = () => {
             <div className="right">
                 <h4>About me</h4>
                 <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A veniam labore 
-                non dolor eaque explicabo aliquid esse, modi accusamus quisquam fugiat
-                 ipsa facere laborum expedita dolore est accusantium cupiditate repellendus.
-                 lorem</p>
+                    Hey people, my name is Akash Bhandari and i am currently pursuing my final year of BTech 
+                    in the field of CSE and i love solving puzzles and participate in competative coding practices
+                    .You can get in touch with me using the contact section
+                 </p>
                  <div className="social">
-                    <FaFacebook
-                    size={30}
-                    style={{color:"#fff",marginRight:"1rem"}}/>
+                    <a href="https://github.com/akashh369" target="blank">
 
+                     <FaGithub
+                     size={30}
+                     style={{color:"#fff",marginRight:"1rem"}}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/akash-bhandari-b6680222b/?originalSubdomain=in" target="blank">
                     <FaLinkedin
                     size={30}
                     style={{color:"#fff",marginRight:"1rem"}}/>
+                    </a> 
 
-                    <FaTwitter
+                    <FaInstagram
                     size={30}
                     style={{color:"#fff",marginRight:"1rem"}}/>
                  </div>
