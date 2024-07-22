@@ -7,7 +7,6 @@ import IntroImg from "../assets/intro-bg.jpg"
 
 
 const Heroimg = () => {
-    const { scrollYProgress } = useScroll();
     return (
             <div className="hero">
                 <div className="mask">
