@@ -53,3 +53,35 @@
         
     }   
 }
+
+.home-hand{
+    display: inline-block;
+    animation: handMove 2s ease;
+/* timing-function delay iteration-count direction fill-mode; */
+}
+.name-container{
+    position: relative;
+    animation: showName 1s linear forwards;
+}
+
+@keyframes handMove {
+    15%{font-size: xx-large;transform: rotate(5deg);}
+    30%{font-size: xx-large;transform: rotate(-5deg);}
+    45%{font-size: xx-large;transform: rotate(5deg);}
+    60%{font-size: xx-large;transform: rotate(-5deg);}
+    75%{font-size: xx-large;transform: rotate(-5deg);}
+}
+
+@keyframes showName {
+    0% {
+        left: -55%;
+        opacity: 0;
+      }
+      50% {
+        opacity: 0; /* Stay hidden until halfway through animation */
+      }
+      100% {
+        left: 0;
+        opacity: 1;
+      }
+}
