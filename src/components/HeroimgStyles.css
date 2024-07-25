@@ -56,7 +56,7 @@
 
 .home-hand{
     display: inline-block;
-    animation: handMove 2s ease;
+    animation: handMove 3s ease;
 /* timing-function delay iteration-count direction fill-mode; */
 }
 .name-container{
@@ -65,11 +65,12 @@
 }
 
 @keyframes handMove {
-    15%{font-size: xx-large;transform: rotate(5deg);}
-    30%{font-size: xx-large;transform: rotate(-5deg);}
-    45%{font-size: xx-large;transform: rotate(5deg);}
-    60%{font-size: xx-large;transform: rotate(-5deg);}
-    75%{font-size: xx-large;transform: rotate(-5deg);}
+    35%{font-size: xx-large;transform: rotate(5deg);}
+    42%{font-size: xx-large;transform: rotate(-5deg);}
+    49%{font-size: xx-large;transform: rotate(5deg);}
+    56%{font-size: xx-large;transform: rotate(-5deg);}
+    63%{font-size: xx-large;transform: rotate(-5deg);}
+    70%{font-size: xx-large;transform: rotate(5deg);}
 }
 
 @keyframes showName {

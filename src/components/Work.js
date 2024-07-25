@@ -5,6 +5,21 @@ import WorkCard from "./WorkCard"
 import WorkCardData from "./WorkCardData"
 // import coloursharp from '../assets/color-sharp.png'
 
+
+/*
+Plan:
+-----------------------------------------------
+                MY WORK //show or blink this then hide 
+  
+                the complete component will b hidden and will be shown after click
+
+    .....{and other cards}
+
+-----------------------------------------------
+ */
+// https://codesandbox.io/s/lccxwh?file=/src/App.tsx
+
+
 const Work = () => {
   return (
     <div className="work-container">
